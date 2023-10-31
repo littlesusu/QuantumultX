@@ -14,7 +14,7 @@
 [rewrite_local]
 
 # > 百度网盘_开屏广告@ddgksf2013
-^https?:\/\/pan\.baidu\.com\/api\/getsyscfg url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js
+^https?:\/\/pan\.baidu\.com\/api\/getsyscfg url script-response-body https://raw.githubusercontent.com/littlesusu/QuantumultX/master/Rewrite/PanBaidu.js
 # > 百度网盘_设置信息流@ddgksf2013
 ^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list url reject-200
 # > 百度网盘_通用广告@ddgksf2013
@@ -22,7 +22,7 @@
 # > 百度网盘_活动推广@ddgksf2013
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject-200
 # > 百度网盘_会员权益@ddgksf2013
-^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js
+^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id url script-response-body https://raw.githubusercontent.com/littlesusu/QuantumultX/master/Rewrite/PanBaidu.js
 
 [mitm]
 
