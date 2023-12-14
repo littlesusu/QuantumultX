@@ -1,26 +1,46 @@
-# https://openai.com/
-# created by blackmatrix7 
+# openai
 # repo:https://github.com/blackmatrix7/ios_rule_script
-DOMAIN,cdn.auth0.com,🤖 AI Platforms
-DOMAIN,o33249.ingest.sentry.io,🤖 AI Platforms
-DOMAIN-SUFFIX,ai.com,🤖 AI Platforms
-DOMAIN-SUFFIX,challenges.cloudflare.com,🤖 AI Platforms
-DOMAIN-SUFFIX,identrust.com,🤖 AI Platforms
-DOMAIN-SUFFIX,stripe.com,🤖 AI Platforms
-DOMAIN-KEYWORD,openai,🤖 AI Platforms
+HOST,browser-intake-datadoghq.com,OpenAI
+HOST,static.cloudflareinsights.com,OpenAI
+HOST-SUFFIX,ai.com,OpenAI
+HOST-SUFFIX,algolia.net,OpenAI
+HOST-SUFFIX,api.statsig.com,OpenAI
+HOST-SUFFIX,auth0.com,OpenAI
+HOST-SUFFIX,cdn.cloudflare.net,OpenAI
+HOST-SUFFIX,challenges.cloudflare.com,OpenAI
+HOST-SUFFIX,chatgpt.livekit.cloud,OpenAI
+HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
+HOST-SUFFIX,events.statsigapi.net,OpenAI
+HOST-SUFFIX,featuregates.org,OpenAI
+HOST-SUFFIX,host.livekit.cloud,OpenAI
+HOST-SUFFIX,identrust.com,OpenAI
+HOST-SUFFIX,intercom.io,OpenAI
+HOST-SUFFIX,intercomcdn.com,OpenAI
+HOST-SUFFIX,launchdarkly.com,OpenAI
+HOST-SUFFIX,oaistatic.com,OpenAI
+HOST-SUFFIX,oaiusercontent.com,OpenAI
+HOST-SUFFIX,observeit.net,OpenAI
+HOST-SUFFIX,poe.com,OpenAI
+HOST-SUFFIX,segment.io,OpenAI
+HOST-SUFFIX,sentry.io,OpenAI
+HOST-SUFFIX,stripe.com,OpenAI
+HOST-SUFFIX,turn.livekit.cloud,OpenAI
+HOST-KEYWORD,openai,OpenAI
+IP-CIDR,24.199.123.28/32,OpenAI
+IP-CIDR,64.23.132.171/32,OpenAI
+IP-ASN,14061,OpenAI
+IP-ASN,20473,OpenAI
 
-# https://claude.ai/
-# created by limbopro
-# repo:https://github.com/limbopro/Profiles4limbo/
-DOMAIN-KEYWORD,claude,🤖 AI Platforms
-DOMAIN-KEYWORD,anthropic,🤖 AI Platforms
+# claude
+HOST,cdn.usefathom.com,Claude
+HOST-SUFFIX,anthropic.com,Claude
+HOST-SUFFIX,claude.ai,Claude
 
-# https://bard.google.com/
-# created by limbopro
-# repo:https://github.com/limbopro/Profiles4limbo/
+# bard
 DOMAIN-SUFFIX,google.com,🤖 AI Platforms
 DOMAIN-SUFFIX,apis.google.com,🤖 AI Platforms
 DOMAIN-SUFFIX,bard.google.com,🤖 AI Platforms
 DOMAIN-SUFFIX,in.appcenter.ms,🤖 AI Platforms
 DOMAIN-SUFFIX,ogs.google.com,🤖 AI Platforms
 DOMAIN-SUFFIX,www.google.com,🤖 AI Platforms
+HOST-SUFFIX,bard.google.com,BardAI
